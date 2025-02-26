@@ -169,7 +169,7 @@ import itertools
 
 colors = ["red", "blue", "green"]
 cycle = itertools.cycle(colors)
-for color in range(10):
+for color in range(6):
     print(next(cycle))
 
 print("hello world")
